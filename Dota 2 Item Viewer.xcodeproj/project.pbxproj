@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0AB0B2193D3C46008946FF /* RDDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0AB0B1193D3C46008946FF /* RDDHomeViewController.m */; };
+		CF22F5121939A80A00F20CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5111939A80A00F20CA0 /* Foundation.framework */; };
+		CF22F5141939A80A00F20CA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5131939A80A00F20CA0 /* CoreGraphics.framework */; };
+		CF22F5161939A80A00F20CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5151939A80A00F20CA0 /* UIKit.framework */; };
+		CF22F51C1939A80A00F20CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF22F51A1939A80A00F20CA0 /* InfoPlist.strings */; };
+		CF22F51E1939A80A00F20CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F51D1939A80A00F20CA0 /* main.m */; };
+		CF22F5221939A80A00F20CA0 /* RDDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5211939A80A00F20CA0 /* RDDAppDelegate.m */; };
+		CF22F5251939A80B00F20CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5231939A80B00F20CA0 /* Main.storyboard */; };
+		CF22F5281939A80B00F20CA0 /* RDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5271939A80B00F20CA0 /* RDDViewController.m */; };
+		CF22F52A1939A80B00F20CA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5291939A80B00F20CA0 /* Images.xcassets */; };
+		CF22F5311939A80B00F20CA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5301939A80B00F20CA0 /* XCTest.framework */; };
+		CF22F5321939A80B00F20CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5111939A80A00F20CA0 /* Foundation.framework */; };
+		CF22F5331939A80B00F20CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF22F5151939A80A00F20CA0 /* UIKit.framework */; };
+		CF22F53B1939A80B00F20CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5391939A80B00F20CA0 /* InfoPlist.strings */; };
+		CF22F53D1939A80B00F20CA0 /* Dota_2_Item_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F53C1939A80B00F20CA0 /* Dota_2_Item_ViewerTests.m */; };
+		CF22F5491939AD6F00F20CA0 /* RDDItemsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5481939AD6F00F20CA0 /* RDDItemsModel.m */; };
+		CF22F54C1939C15700F20CA0 /* RDDItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F54B1939C15700F20CA0 /* RDDItem.m */; };
+		CF22F593193A7DA800F20CA0 /* RDDItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F592193A7DA800F20CA0 /* RDDItemsViewController.m */; };
+		CF22F597193AB6F800F20CA0 /* RDDSteamValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F596193AB6F800F20CA0 /* RDDSteamValidator.m */; };
+		CF22F59B193ABD4200F20CA0 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F59A193ABD4200F20CA0 /* XMLReader.m */; };
+		CF22F5A1193AFB4D00F20CA0 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5A0193AFB4D00F20CA0 /* IconDownloader.m */; };
+		CF22F5B0193B254F00F20CA0 /* RDDDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5AF193B254F00F20CA0 /* RDDDetailsViewController.m */; };
+		CF22F5BF193C618500F20CA0 /* RNFrostedSidebar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F5BE193C618500F20CA0 /* RNFrostedSidebar.m */; };
+		CF22F5C4193C64C300F20CA0 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C0193C64C300F20CA0 /* gear.png */; };
+		CF22F5C5193C64C300F20CA0 /* gear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C1193C64C300F20CA0 /* gear@2x.png */; };
+		CF22F5C6193C64C300F20CA0 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C2193C64C300F20CA0 /* globe.png */; };
+		CF22F5C7193C64C300F20CA0 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C3193C64C300F20CA0 /* globe@2x.png */; };
+		CF22F5CA193C673500F20CA0 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C8193C673500F20CA0 /* burger.png */; };
+		CF22F5CB193C673500F20CA0 /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF22F5C9193C673500F20CA0 /* burger@2x.png */; };
+		CF31A02C1941262E00B25FBA /* RKiOS7Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = CF31A0291941262E00B25FBA /* RKiOS7Loading.m */; };
+		CF31A02D1941262E00B25FBA /* UIColor+iOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = CF31A02B1941262E00B25FBA /* UIColor+iOS7.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF22F5341939A80B00F20CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF22F5061939A80A00F20CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF22F50D1939A80A00F20CA0;
+			remoteInfo = "Dota 2 Item Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0AB0B0193D3C46008946FF /* RDDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDHomeViewController.h; sourceTree = "<group>"; };
+		CF0AB0B1193D3C46008946FF /* RDDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDHomeViewController.m; sourceTree = "<group>"; };
+		CF22F50E1939A80A00F20CA0 /* Dota 2 Item Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota 2 Item Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF22F5111939A80A00F20CA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF22F5131939A80A00F20CA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF22F5151939A80A00F20CA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF22F5191939A80A00F20CA0 /* Dota 2 Item Viewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota 2 Item Viewer-Info.plist"; sourceTree = "<group>"; };
+		CF22F51B1939A80A00F20CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF22F51D1939A80A00F20CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF22F51F1939A80A00F20CA0 /* Dota 2 Item Viewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dota 2 Item Viewer-Prefix.pch"; sourceTree = "<group>"; };
+		CF22F5201939A80A00F20CA0 /* RDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDDAppDelegate.h; sourceTree = "<group>"; };
+		CF22F5211939A80A00F20CA0 /* RDDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDDAppDelegate.m; sourceTree = "<group>"; };
+		CF22F5241939A80B00F20CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF22F5261939A80B00F20CA0 /* RDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDDViewController.h; sourceTree = "<group>"; };
+		CF22F5271939A80B00F20CA0 /* RDDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDDViewController.m; sourceTree = "<group>"; };
+		CF22F5291939A80B00F20CA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF22F52F1939A80B00F20CA0 /* Dota 2 Item ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dota 2 Item ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF22F5301939A80B00F20CA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF22F5381939A80B00F20CA0 /* Dota 2 Item ViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dota 2 Item ViewerTests-Info.plist"; sourceTree = "<group>"; };
+		CF22F53A1939A80B00F20CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF22F53C1939A80B00F20CA0 /* Dota_2_Item_ViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dota_2_Item_ViewerTests.m; sourceTree = "<group>"; };
+		CF22F5471939AD6F00F20CA0 /* RDDItemsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDItemsModel.h; sourceTree = "<group>"; };
+		CF22F5481939AD6F00F20CA0 /* RDDItemsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDItemsModel.m; sourceTree = "<group>"; };
+		CF22F54A1939C15700F20CA0 /* RDDItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDItem.h; sourceTree = "<group>"; };
+		CF22F54B1939C15700F20CA0 /* RDDItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDItem.m; sourceTree = "<group>"; };
+		CF22F591193A7DA800F20CA0 /* RDDItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDItemsViewController.h; sourceTree = "<group>"; };
+		CF22F592193A7DA800F20CA0 /* RDDItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDItemsViewController.m; sourceTree = "<group>"; };
+		CF22F595193AB6F800F20CA0 /* RDDSteamValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDSteamValidator.h; sourceTree = "<group>"; };
+		CF22F596193AB6F800F20CA0 /* RDDSteamValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDSteamValidator.m; sourceTree = "<group>"; };
+		CF22F599193ABD4200F20CA0 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		CF22F59A193ABD4200F20CA0 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		CF22F59F193AFB4D00F20CA0 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		CF22F5A0193AFB4D00F20CA0 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		CF22F5AE193B254F00F20CA0 /* RDDDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDDetailsViewController.h; sourceTree = "<group>"; };
+		CF22F5AF193B254F00F20CA0 /* RDDDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDDetailsViewController.m; sourceTree = "<group>"; };
+		CF22F5BD193C618500F20CA0 /* RNFrostedSidebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNFrostedSidebar.h; sourceTree = "<group>"; };
+		CF22F5BE193C618500F20CA0 /* RNFrostedSidebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNFrostedSidebar.m; sourceTree = "<group>"; };
+		CF22F5C0193C64C300F20CA0 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		CF22F5C1193C64C300F20CA0 /* gear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear@2x.png"; sourceTree = "<group>"; };
+		CF22F5C2193C64C300F20CA0 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		CF22F5C3193C64C300F20CA0 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		CF22F5C8193C673500F20CA0 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		CF22F5C9193C673500F20CA0 /* burger@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "burger@2x.png"; sourceTree = "<group>"; };
+		CF31A0281941262E00B25FBA /* RKiOS7Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKiOS7Loading.h; sourceTree = "<group>"; };
+		CF31A0291941262E00B25FBA /* RKiOS7Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKiOS7Loading.m; sourceTree = "<group>"; };
+		CF31A02A1941262E00B25FBA /* UIColor+iOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7.h"; sourceTree = "<group>"; };
+		CF31A02B1941262E00B25FBA /* UIColor+iOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF22F50B1939A80A00F20CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F5141939A80A00F20CA0 /* CoreGraphics.framework in Frameworks */,
+				CF22F5161939A80A00F20CA0 /* UIKit.framework in Frameworks */,
+				CF22F5121939A80A00F20CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF22F52C1939A80B00F20CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F5311939A80B00F20CA0 /* XCTest.framework in Frameworks */,
+				CF22F5331939A80B00F20CA0 /* UIKit.framework in Frameworks */,
+				CF22F5321939A80B00F20CA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF22F5051939A80A00F20CA0 = {
+			isa = PBXGroup;
+			children = (
+				CF22F5171939A80A00F20CA0 /* Dota 2 Item Viewer */,
+				CF22F5361939A80B00F20CA0 /* Dota 2 Item ViewerTests */,
+				CF22F5101939A80A00F20CA0 /* Frameworks */,
+				CF22F50F1939A80A00F20CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF22F50F1939A80A00F20CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F50E1939A80A00F20CA0 /* Dota 2 Item Viewer.app */,
+				CF22F52F1939A80B00F20CA0 /* Dota 2 Item ViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF22F5101939A80A00F20CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5111939A80A00F20CA0 /* Foundation.framework */,
+				CF22F5131939A80A00F20CA0 /* CoreGraphics.framework */,
+				CF22F5151939A80A00F20CA0 /* UIKit.framework */,
+				CF22F5301939A80B00F20CA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF22F5171939A80A00F20CA0 /* Dota 2 Item Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5C8193C673500F20CA0 /* burger.png */,
+				CF22F5C9193C673500F20CA0 /* burger@2x.png */,
+				CF22F5C0193C64C300F20CA0 /* gear.png */,
+				CF22F5C1193C64C300F20CA0 /* gear@2x.png */,
+				CF22F5C2193C64C300F20CA0 /* globe.png */,
+				CF22F5C3193C64C300F20CA0 /* globe@2x.png */,
+				CF22F5BC193C617400F20CA0 /* Menu */,
+				CF22F5B7193C4A5B00F20CA0 /* ProgressIndicator */,
+				CF22F598193ABD3100F20CA0 /* libs */,
+				CF22F594193AB6D000F20CA0 /* checker */,
+				CF22F5461939AD4500F20CA0 /* Data */,
+				CF22F5201939A80A00F20CA0 /* RDDAppDelegate.h */,
+				CF22F5211939A80A00F20CA0 /* RDDAppDelegate.m */,
+				CF22F5231939A80B00F20CA0 /* Main.storyboard */,
+				CF22F5A6193B1D7D00F20CA0 /* views */,
+				CF22F5291939A80B00F20CA0 /* Images.xcassets */,
+				CF22F5181939A80A00F20CA0 /* Supporting Files */,
+			);
+			path = "Dota 2 Item Viewer";
+			sourceTree = "<group>";
+		};
+		CF22F5181939A80A00F20CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5191939A80A00F20CA0 /* Dota 2 Item Viewer-Info.plist */,
+				CF22F51A1939A80A00F20CA0 /* InfoPlist.strings */,
+				CF22F51D1939A80A00F20CA0 /* main.m */,
+				CF22F51F1939A80A00F20CA0 /* Dota 2 Item Viewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF22F5361939A80B00F20CA0 /* Dota 2 Item ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F53C1939A80B00F20CA0 /* Dota_2_Item_ViewerTests.m */,
+				CF22F5371939A80B00F20CA0 /* Supporting Files */,
+			);
+			path = "Dota 2 Item ViewerTests";
+			sourceTree = "<group>";
+		};
+		CF22F5371939A80B00F20CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5381939A80B00F20CA0 /* Dota 2 Item ViewerTests-Info.plist */,
+				CF22F5391939A80B00F20CA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF22F5461939AD4500F20CA0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5471939AD6F00F20CA0 /* RDDItemsModel.h */,
+				CF22F5481939AD6F00F20CA0 /* RDDItemsModel.m */,
+				CF22F54A1939C15700F20CA0 /* RDDItem.h */,
+				CF22F54B1939C15700F20CA0 /* RDDItem.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CF22F594193AB6D000F20CA0 /* checker */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F595193AB6F800F20CA0 /* RDDSteamValidator.h */,
+				CF22F596193AB6F800F20CA0 /* RDDSteamValidator.m */,
+			);
+			name = checker;
+			sourceTree = "<group>";
+		};
+		CF22F598193ABD3100F20CA0 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F59F193AFB4D00F20CA0 /* IconDownloader.h */,
+				CF22F5A0193AFB4D00F20CA0 /* IconDownloader.m */,
+				CF22F599193ABD4200F20CA0 /* XMLReader.h */,
+				CF22F59A193ABD4200F20CA0 /* XMLReader.m */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		CF22F5A6193B1D7D00F20CA0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5261939A80B00F20CA0 /* RDDViewController.h */,
+				CF22F5271939A80B00F20CA0 /* RDDViewController.m */,
+				CF22F591193A7DA800F20CA0 /* RDDItemsViewController.h */,
+				CF22F592193A7DA800F20CA0 /* RDDItemsViewController.m */,
+				CF22F5AE193B254F00F20CA0 /* RDDDetailsViewController.h */,
+				CF22F5AF193B254F00F20CA0 /* RDDDetailsViewController.m */,
+				CF0AB0B0193D3C46008946FF /* RDDHomeViewController.h */,
+				CF0AB0B1193D3C46008946FF /* RDDHomeViewController.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		CF22F5B7193C4A5B00F20CA0 /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				CF31A0281941262E00B25FBA /* RKiOS7Loading.h */,
+				CF31A0291941262E00B25FBA /* RKiOS7Loading.m */,
+				CF31A02A1941262E00B25FBA /* UIColor+iOS7.h */,
+				CF31A02B1941262E00B25FBA /* UIColor+iOS7.m */,
+			);
+			name = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+		CF22F5BC193C617400F20CA0 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CF22F5BD193C618500F20CA0 /* RNFrostedSidebar.h */,
+				CF22F5BE193C618500F20CA0 /* RNFrostedSidebar.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF22F50D1939A80A00F20CA0 /* Dota 2 Item Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF22F5401939A80B00F20CA0 /* Build configuration list for PBXNativeTarget "Dota 2 Item Viewer" */;
+			buildPhases = (
+				CF22F50A1939A80A00F20CA0 /* Sources */,
+				CF22F50B1939A80A00F20CA0 /* Frameworks */,
+				CF22F50C1939A80A00F20CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dota 2 Item Viewer";
+			productName = "Dota 2 Item Viewer";
+			productReference = CF22F50E1939A80A00F20CA0 /* Dota 2 Item Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF22F52E1939A80B00F20CA0 /* Dota 2 Item ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF22F5431939A80B00F20CA0 /* Build configuration list for PBXNativeTarget "Dota 2 Item ViewerTests" */;
+			buildPhases = (
+				CF22F52B1939A80B00F20CA0 /* Sources */,
+				CF22F52C1939A80B00F20CA0 /* Frameworks */,
+				CF22F52D1939A80B00F20CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF22F5351939A80B00F20CA0 /* PBXTargetDependency */,
+			);
+			name = "Dota 2 Item ViewerTests";
+			productName = "Dota 2 Item ViewerTests";
+			productReference = CF22F52F1939A80B00F20CA0 /* Dota 2 Item ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF22F5061939A80A00F20CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RDD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Redondo;
+				TargetAttributes = {
+					CF22F50D1939A80A00F20CA0 = {
+						DevelopmentTeam = SZX69D6J52;
+					};
+					CF22F52E1939A80B00F20CA0 = {
+						TestTargetID = CF22F50D1939A80A00F20CA0;
+					};
+				};
+			};
+			buildConfigurationList = CF22F5091939A80A00F20CA0 /* Build configuration list for PBXProject "Dota 2 Item Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF22F5051939A80A00F20CA0;
+			productRefGroup = CF22F50F1939A80A00F20CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF22F50D1939A80A00F20CA0 /* Dota 2 Item Viewer */,
+				CF22F52E1939A80B00F20CA0 /* Dota 2 Item ViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF22F50C1939A80A00F20CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F5C5193C64C300F20CA0 /* gear@2x.png in Resources */,
+				CF22F52A1939A80B00F20CA0 /* Images.xcassets in Resources */,
+				CF22F5C4193C64C300F20CA0 /* gear.png in Resources */,
+				CF22F5C6193C64C300F20CA0 /* globe.png in Resources */,
+				CF22F5CA193C673500F20CA0 /* burger.png in Resources */,
+				CF22F5C7193C64C300F20CA0 /* globe@2x.png in Resources */,
+				CF22F5CB193C673500F20CA0 /* burger@2x.png in Resources */,
+				CF22F51C1939A80A00F20CA0 /* InfoPlist.strings in Resources */,
+				CF22F5251939A80B00F20CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF22F52D1939A80B00F20CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F53B1939A80B00F20CA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF22F50A1939A80A00F20CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F51E1939A80A00F20CA0 /* main.m in Sources */,
+				CF22F5221939A80A00F20CA0 /* RDDAppDelegate.m in Sources */,
+				CF31A02D1941262E00B25FBA /* UIColor+iOS7.m in Sources */,
+				CF22F5B0193B254F00F20CA0 /* RDDDetailsViewController.m in Sources */,
+				CF22F59B193ABD4200F20CA0 /* XMLReader.m in Sources */,
+				CF22F54C1939C15700F20CA0 /* RDDItem.m in Sources */,
+				CF0AB0B2193D3C46008946FF /* RDDHomeViewController.m in Sources */,
+				CF22F5A1193AFB4D00F20CA0 /* IconDownloader.m in Sources */,
+				CF22F5BF193C618500F20CA0 /* RNFrostedSidebar.m in Sources */,
+				CF22F5281939A80B00F20CA0 /* RDDViewController.m in Sources */,
+				CF22F593193A7DA800F20CA0 /* RDDItemsViewController.m in Sources */,
+				CF22F597193AB6F800F20CA0 /* RDDSteamValidator.m in Sources */,
+				CF22F5491939AD6F00F20CA0 /* RDDItemsModel.m in Sources */,
+				CF31A02C1941262E00B25FBA /* RKiOS7Loading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF22F52B1939A80B00F20CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF22F53D1939A80B00F20CA0 /* Dota_2_Item_ViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF22F5351939A80B00F20CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF22F50D1939A80A00F20CA0 /* Dota 2 Item Viewer */;
+			targetProxy = CF22F5341939A80B00F20CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF22F51A1939A80A00F20CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF22F51B1939A80A00F20CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF22F5231939A80B00F20CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF22F5241939A80B00F20CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF22F5391939A80B00F20CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF22F53A1939A80B00F20CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF22F53E1939A80B00F20CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF22F53F1939A80B00F20CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF22F5411939A80B00F20CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota 2 Item Viewer/Dota 2 Item Viewer-Prefix.pch";
+				INFOPLIST_FILE = "Dota 2 Item Viewer/Dota 2 Item Viewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF22F5421939A80B00F20CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota 2 Item Viewer/Dota 2 Item Viewer-Prefix.pch";
+				INFOPLIST_FILE = "Dota 2 Item Viewer/Dota 2 Item Viewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF22F5441939A80B00F20CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota 2 Item Viewer.app/Dota 2 Item Viewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota 2 Item Viewer/Dota 2 Item Viewer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dota 2 Item ViewerTests/Dota 2 Item ViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF22F5451939A80B00F20CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dota 2 Item Viewer.app/Dota 2 Item Viewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dota 2 Item Viewer/Dota 2 Item Viewer-Prefix.pch";
+				INFOPLIST_FILE = "Dota 2 Item ViewerTests/Dota 2 Item ViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF22F5091939A80A00F20CA0 /* Build configuration list for PBXProject "Dota 2 Item Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF22F53E1939A80B00F20CA0 /* Debug */,
+				CF22F53F1939A80B00F20CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF22F5401939A80B00F20CA0 /* Build configuration list for PBXNativeTarget "Dota 2 Item Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF22F5411939A80B00F20CA0 /* Debug */,
+				CF22F5421939A80B00F20CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF22F5431939A80B00F20CA0 /* Build configuration list for PBXNativeTarget "Dota 2 Item ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF22F5441939A80B00F20CA0 /* Debug */,
+				CF22F5451939A80B00F20CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF22F5061939A80A00F20CA0 /* Project object */;
+}
